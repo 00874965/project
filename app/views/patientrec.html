@@ -1,0 +1,96 @@
+
+<div><h2> Record your Daily Blood Sugar readings here  <span class="glyphicon glyphicon-tint"></span></h2><h3>Week 1</h3></div>
+<h4>Readings should geneally be done at the following times & within the Ranges shown: </h4>
+<li>First thing in the morning - < 5.0</li>
+<li>One hour after Breakfast - < 7.0</li>
+<li>One hour before Lunch - < 5.0</li>
+<li>One hour after lunch - < 7.0</li>
+<li>One hour before Dinner - < 5.0</li>
+<li>One hour after Dinner - < 7.0</li>
+<li>Before Bed - < 5.0</li>
+<br></br>
+
+<div ng-controller="PatientrecCtrl">
+<div class="row">
+      <div class="col-sm-3">
+            <label> Enter Sundays readings </label>
+                <input type="text" name="inSunData" ng-model="inSunData" />
+                <input type="button" ng-click="addSunData()" value="Add" />
+                    <table border="1">
+                        <tr ng-repeat="Sundata in mySunData">
+                        <td> {{Sundata}}</td>
+                        <td><a href="" ng-click="removeSunData(Sundata)"> Delete</a></td>
+                    </table>
+      </div> 
+          <div class="col-sm-3">
+            <label> Enter Mondays readings </label>
+                <input type="text" name="inMonData" ng-model="inMonData" />
+                <input type="button" ng-click="addMonData()" value="Add" />
+                  <table border="2">
+                      <tr ng-repeat="Mondata in myMonData">
+                      <td> {{Mondata}}</td>
+                      <td><a href="" ng-click="removeMonData(Mondata)"> Delete</a></td>
+                  </table>
+      </div>
+      <div class="col-sm-3">
+            <label> Enter Tuesdays readings </label>
+                <input type="text" name="inTuesData" ng-model="inTuesData" />
+                <input type="button" ng-click="addTuesData()" value="Add" />
+                  <table border="2" padding="10px">
+                    <tr ng-repeat="Tuesdata in myTuesData">
+                    <td> {{Tuesdata}}</td>
+                    <td><a href="" ng-click="removeTuesData(Tuesdata)"> Delete</a></td>
+                </table>
+     </div>
+</div>
+<br>
+<div class="row">
+     <div class="col-sm-3">    
+            <label> Enter Wednesdays readings </label>
+                <input type="text" name="inWedData" ng-model="inWedData" />
+                <input type="button" ng-click="addWedData()" value="Add" />
+                  <table border="2" padding="10px">
+                    <tr ng-repeat="Weddata in myWedData">
+                    <td> {{Weddata}}</td>
+                    <td><a href="" ng-click="removeWedData(Weddata)"> Delete</a></td>
+                  </table>
+    </div> 
+    <div class="col-sm-3">    
+            <label> Enter Thursdays readings </label>
+                <input type="text" name="inThurData" ng-model="inThurData" />
+                <input type="button" ng-click="addThurData()" value="Add" />
+                  <table border="2" padding="10px">
+                      <tr ng-repeat="Thurdata in myThurData">
+                      <td> {{Thurdata}}</td>
+                      <td><a href="" ng-click="removeThurData(Thurdata)"> Delete</a></td>
+                 </table>
+     </div> 
+     <div class="col-sm-3">
+            <label> Enter Fridays readings </label>
+                <input type="text" name="inFriData" ng-model="inFriData" />
+                <input type="button" ng-click="addFriData()" value="Add" />
+                    <table border="2" padding="10px">
+                        <tr ng-repeat="Fridata in myFriData">
+                        <td> {{Fridata}}</td>
+                        <td><a href="" ng-click="removeFriData(Fridata)"> Delete</a></td>
+                  </table>
+      </div>
+</div>
+<br>
+<div class="row">
+     <div class="col-sm-3">       
+      <label> Enter Saturdays readings </label>
+        <input type="text" name="inSatData" ng-model="inSatData" />
+        <input type="button" ng-click="addSatData()" value="Add" />
+          <table border="2" padding="10px">
+             <tr ng-repeat="Satdata in mySatData">
+              <td> {{Satdata}}</td>
+              <td><a href="" ng-click="removeSatData(Satdata)"> Delete</a></td>
+          </table>
+        </div>
+      <div class="col-sm-3"></div>
+      <div class="col-sm-3"></div> 
+ </div>
+</div>
+<br></br>
+<br></br>

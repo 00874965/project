@@ -1,0 +1,20 @@
+<div ng-app="gestDiabetesApp" ng-controller="MedirecordCtrl">
+
+<h4>Endocryology Dept; Gestational Diabetes Patient Records:</h4>   <h4>Medical Practise Reg. No. 23RT454</h4>
+<table>
+    <th>First Name<br> <input type="text" ng-model="search.fname"> </th>
+    <th>Last Name<br> <input type="text" ng-model="search.lname"></th>
+    <th>Patient ID<br> <input type="text" ng-model="search.patientID"></th>
+    <th>Delivery Due Date <br> <input type="text" ng-model="search.duedate"></th>
+    <th>Insulin<br> <input type="text" ng-model="search.insulinIND"></th>
+    <th>BG Levels<br> <input type="text" ng-model="search.readings"></th>
+  <tr ng-repeat="x in patients | filter:search">
+    <td>{{ x.fname }}</td>
+    <td>{{ x.lname }}</td>
+    <td>{{ x.patientID }}</td>
+    <td>{{ x.duedate }}</td>
+    <td>{{ x.insulinIND }}</td>
+    <td>{{ x.readings }}</td>
+  </tr>
+</table>
+</div>
