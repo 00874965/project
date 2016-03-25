@@ -1,4 +1,4 @@
-#Assignment 1 - AngularJS app.
+﻿#Assignment 1 - AngularJS app.
 
 Name: Miriam Callahan 00874965
 
@@ -6,23 +6,26 @@ Name: Miriam Callahan 00874965
 
 I created an App based on my own experience of having Gestational Diabetes during my pregnancy. Once diagnosed, patients immediately begin the process of testing blood samples 7 times a day, before and after meals,  to monitor blood sugar levels. If these levels go above the recommended ranges, the patient is moved onto a new phase of treatment of insulin injections at numerous times during the day also. If patients need to move to this stage there are implications, one of which is that the baby, when born, needs to be taken to a separate unit for monitoring in the hospital and does not get to spend those first 24 hours with the mother. (*because the babies sugar levels drop significantly once the insulin that was controlling them during pregnancy are taken away as they are no longer in the womb*) So, my own journey began to try and prevent insulin treatment in order that my baby could remain with me after she was born.
 This journey involved researching & eating food that would not impact my sugars beyond their ranges, moderate exercise and ALOT of blood sugar level monitoring, recording and analysing with my Obstetrician and Endocrinologist. Visits to these healthcare professionals are increased so a lot more time is spent making prenatal appointments than otherwise would be. There were various times I felt that the procedures involved could be updated and streamlined so that less time was spent capturing the data for me – the patient, less time was spent also analysing the data – the healthcare professionals. I thought that time could be saved on appointments and a whole lot of money could be saved along the way – ie. Visiting the Endocrinologist every couple of weeks cost me E600 in total over a 7 week period, simply to be told each time that my ‘book/readings’ looked good and see you the next time. Below are the procedures in place currently and alongside those, where I saw opportunities to improve them by moving to a simple web based system for all. 
-Current State | Future State
---- | --- 
-Pen and Paper recording of Blood Glucose Level readings during pregnancy, 7 times a day, prone to damage and being lost | Web / Mobile app to log readings instead. Can be accessed anywhere, won’t get lost, won’t get damaged. Can also provide further ‘at a glance analysis when required
-Manual inspection of book during health appointments. On the spot decisions on further treatment | Healthcare portal for anytime access to Patient readings as they are uploaded. Appointments and feedback can be prepared for in advance in this world, and, if readings are of concern appointments can be made to avoid unnecessary visits where no action is required or pursued – ie **Money saving**
-Insufficient space in book for readings or possibilities of mistakes. Prone to ‘scribbling out’ when readings go wrong (happens from time to time). Once pregnancy is over, books are lost, along with the data | Web / Mobile app provides a permanent record of readings to assist not only the patient for future pregnancies but Healthcare professionals and researchers if they want to apply analytics. 
-Immediately you are immersed in a world where food becomes an uncertainty. Even healthy options ie brown rice can drive sugar levels up so it becomes trial and error. You may try your best but be placed on insulin treatment because you just didn’t know what food would be good for you. | Web / Mobile app would provide another page where ‘tried and tested’ recipes would be available to browse and rate and a repository of ‘Gestational Diabetes Recipes would be available so you’re pretty sure (although not 100% ) that your sugars will be safe.
-General Information is not readily available via pamphlets and booklets provided. You can ‘google’ GD and you will normally find out about All the other types of Diabetes but nothing is inviting or supportive or ‘friendly’ about the current means of information existing. | Many communities exist on the internet for Mums and Babies, Mums to Be, Family Life etc .. I see an opportunity to create a similar concept for GD Mums 2 Be as it deserves its own platform given the nature in which your day to day changes when you get the diagnosis. A Web / Mobile app would provide a place for information, news and support for patients so they can come to one place versus hopping from one community to the next searching for similar journeys.
 
+1 - Current: Pen and Paper recording of Blood Glucose Level readings during pregnancy, 7 times a day, prone to damage and being lost
+1 - Future:  Web / Mobile app to log readings instead. Can be accessed anywhere, won’t get lost, won’t get damaged. Can also provide further ‘at a glance analysis when required
+2 - Current: Manual inspection of book during health appointments. On the spot decisions on further treatment 
+2 - Future: Healthcare portal for anytime access to Patient readings as they are uploaded. Appointments and feedback can be prepared for in advance in this world, and, if readings are of concern appointments can be made to avoid unnecessary visits where no action is required or pursued – ie **Money saving**
+3 -Current: Insufficient space in book for readings or possibilities of mistakes. Prone to ‘scribbling out’ when readings go wrong (happens from time to time). Once pregnancy is over, books are lost, along with the data 
+3 Future: Web / Mobile app provides a permanent record of readings to assist not only the patient for future pregnancies but Healthcare professionals and researchers if they want to apply analytics. 
+4 - Current:Immediately you are immersed in a world where food becomes an uncertainty. Even healthy options ie brown rice can drive sugar levels up so it becomes trial and error. You may try your best but be placed on insulin treatment because you just didn’t know what food would be good for you. 
+4 - Future: Web / Mobile app would provide another page where ‘tried and tested’ recipes would be available to browse and rate and a repository of ‘Gestational Diabetes Recipes would be available so you’re pretty sure (although not 100% ) that your sugars will be safe.
+5 - Current: General Information is not readily available via pamphlets and booklets provided. You can ‘google’ GD and you will normally find out about All the other types of Diabetes but nothing is inviting or supportive or ‘friendly’ about the current means of information existing. 
+5 - Future: Many communities exist on the internet for Mums and Babies, Mums to Be, Family Life etc .. I see an opportunity to create a similar concept for GD Mums 2 Be as it deserves its own platform given the nature in which your day to day changes when you get the diagnosis. A Web / Mobile app would provide a place for information, news and support for patients so they can come to one place versus hopping from one community to the next searching for similar journeys
 ###Features
 
-+**Welcome Page:**  Static Page to welcome users. (Public)
-+**About GD Page:** Static Page about Gestational Diabetes. Information and FAQs. (Public)
-+**Manage your GD Page:** Functional Page:  Links to Recipes, Patients View, Medical Professionals View (Public for Recipes, Private for Patients and Healthcare Professionals.)
-+**Patient View:** (Private)
++Welcome Page: Static Page to welcome users. (Public)
++About GD Page:Static Page about Gestational Diabetes. Information and FAQs. (Public)
++Manage your GD Page: Functional Page:  Links to Recipes, Patients View, Medical Professionals View (Public for Recipes, Private for Patients and Healthcare Professionals.)
++Patient ViewPrivate)
 +Register and / or Login.
 + Form for entering Blood Sugar Readings by the day.
-+**Medical Professionals View:**(Private)
++Medical Professionals View:(Private)
 +Register and / or Login
 +Table view of Patient Records
 +Searching Patient readings and records.
@@ -78,11 +81,11 @@ Future Developments I would like to make:
 +*Future - More user interaction such as comments and feedback* - News Room
 
 
-[image1]: ./DataModel.png
-[image2]: ./DesignModel1.png
-[image3]: ./navbar.png
-[image4]: ./faveiconpic.png
+[image1]: ./DataModel.PNG
+[image2]: ./DesignModel1.PNG
+[image3]: ./navbar.PNG
+[image4]: ./faveiconpic.PNG
 [image5]: ./manage_UI_showinglinks.png
-[image6]: ./recipes_thumbnail_gallery.png
-[image7]: ./patientrec_add_delete_reading.png
-[image8]: ./medicalrecord_search.png"# Assignment_1" 
+[image6]: ./recipes_thumbnail_gallery.PNG
+[image7]: ./patientrec_add_delete_reading.PNG
+[image8]: ./medicalrecord_search.PNG
